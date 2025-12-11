@@ -1,23 +1,116 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My Projects</title>
+    <meta charset="UTF-8">
+    <title>Dự Án - Đặng Việt Thắng</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body data-page="projects">
 
-<nav>
-    <a href="index.html">About Me</a>
-    <a href="projects.html">Projects</a>
-</nav>
+<div class="container">
+    <nav class="navbar">
+        <a href="index.html" class="nav-item" id="index">Giới thiệu</a>
+        <a href="projects.html" class="nav-item" id="projects">Dự án</a>
+        <div class="lang-switch">
+            <a class="lang-btn" href="projects.html">VN</a>
+            <a class="lang-btn" href="projects_en.html">EN</a>
+        </div>
+    </nav>
 
-<h1>My Projects</h1>
+    <header>
+        <h1 id="page_title">Dự Án</h1>
+    </header>
 
-<ul>
-    <li>Project 1 – description</li>
-    <li>Project 2 – description</li>
-    <li>Project 3 – description</li>
-</ul>
+    <section>
+        <h3 id="p1_title">1. Dự án ứng dụng di động (Mobile Application Project)</h3>
+        <ul id="p1_desc">
+            <li>Phát triển ứng dụng di động đa nền tảng bằng <strong>React Native</strong> hoặc <strong>Flutter</strong>.</li>
+            <li>Xây dựng giao diện người dùng, chức năng đăng nhập và quản lý dữ liệu.</li>
+            <li>Áp dụng mô hình <strong>MVVM</strong> / component-based và kết nối API backend.</li>
+        </ul>
+    </section>
 
+    <section>
+        <h3 id="p2_title">2. Dự án giải pháp doanh nghiệp trên nền tảng đám mây (Cloud-Based Business Solution)</h3>
+        <ul id="p2_desc">
+            <li>Xây dựng ứng dụng web hoạt động trên nền tảng điện toán đám mây (<strong>Azure</strong> hoặc <strong>AWS</strong>).</li>
+            <li>Thiết kế và quản lý cơ sở dữ liệu cloud.</li>
+            <li>Triển khai <strong>serverless functions</strong> và quy trình xử lý dữ liệu có khả năng mở rộng.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h3 id="p3_title">3. Dự án ICT – Phát triển phần mềm theo quy trình hoàn chỉnh</h3>
+        <ul id="p3_desc">
+            <li>Tham gia dự án nhóm theo mô hình <strong>Agile</strong>.</li>
+            <li>Tham gia vào thiết kế, lập trình, kiểm thử và giao tiếp với khách hàng.</li>
+            <li>Hoàn thành sản phẩm phần mềm và báo cáo đúng tiến độ.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h3 id="p4_title">4. Dự án phát triển website (Web Application Development)</h3>
+        <ul id="p4_desc">
+            <li>Phát triển website responsive bằng <strong>HTML/CSS/JavaScript</strong> hoặc <strong>React</strong>.</li>
+            <li>Xây dựng backend bằng <strong>Node.js / Python / PHP</strong>.</li>
+            <li>Tích hợp cơ sở dữ liệu, đăng nhập người dùng và triển khai lên hosting/cloud.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h3 id="p5_title">5. Dự án phân tích dữ liệu và Business Intelligence</h3>
+        <ul id="p5_desc">
+            <li>Xây dựng dashboard BI bằng <strong>Power BI</strong> hoặc <strong>Tableau</strong>.</li>
+            <li>Thực hiện xử lý dữ liệu, ETL, trực quan hóa dữ liệu và theo dõi KPI.</li>
+            <li>Phân tích mô hình kinh doanh và đưa ra insights.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h3 id="p6_title">6. Dự án tự động hóa quy trình bằng RPA</h3>
+        <ul id="p6_desc">
+            <li>Tạo quy trình tự động hóa bằng <strong>UiPath</strong> hoặc <strong>Power Automate</strong>.</li>
+            <li>Tự động nhập liệu, xử lý file hoặc tạo báo cáo.</li>
+            <li>Giảm thiểu thao tác thủ công và tăng hiệu quả công việc.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h3 id="p7_title">7. Dự án phát triển game</h3>
+        <ul id="p7_desc">
+            <li>Phát triển game <strong>2D hoặc 3D</strong> bằng <strong>Unity</strong> hoặc <strong>Godot</strong>.</li>
+            <li>Xây dựng gameplay, giao diện, hệ thống vật lý và quản lý tài nguyên.</li>
+            <li>Tạo mô hình 3D và hoạt cảnh cho các phân đoạn trong game.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h3 id="p8_title">8. Dự án Trí tuệ nhân tạo / Machine Learning</h3>
+        <ul id="p8_desc">
+            <li>Xây dựng mô hình học máy (phân loại, dự đoán) bằng <strong>Python</strong>.</li>
+            <li>Huấn luyện mô hình bằng <strong>Scikit-learn, TensorFlow hoặc PyTorch</strong>.</li>
+            <li>Tích hợp mô hình vào ứng dụng nhỏ hoặc API.</li>
+        </ul>
+    </section>
+
+    <section>
+    <h3 id="p9_title">9. Dự án IoT – Cloud & Backend cho HitoAI</h3>
+    <p id="p9_intro">Tham gia phát triển một sản phẩm IoT mới cho công ty HitoAI trong 5 tháng. Công việc liên quan đến kiến trúc IoT, Cloud database, IoT Hub, cloud server và kết nối thiết bị.</p>
+
+    <ul id="p9_desc">
+        <li><strong>Tuya IoT Platform</strong>: Tạo web app với React + Python Flask để nhận dữ liệu thiết bị qua Tuya API và điều khiển từ xa.</li>
+        <li><strong>Firebase</strong>: Lưu trữ dữ liệu IoT và deploy frontend lên Firebase Hosting.</li>
+        <li><strong>Render</strong>: Triển khai backend Flask lên Render để hoạt động 24/7.</li>
+        <li><strong>Python Flask</strong>: Tạo tính năng cron job cập nhật dữ liệu 2 giờ/lần và điều chỉnh theo thời gian trong ngày.</li>
+        <li><strong>ThingSpeak Research</strong>: Đánh giá nền tảng IoT thay thế Tuya nhưng không phù hợp.</li>
+        <li><strong>MongoDB</strong>: Kiểm tra như database thay thế nhưng không được chọn.</li>
+        <li><strong>PostgreSQL</strong>: Thành công tích hợp như database chính.</li>
+        <li><strong>AWS IoT Core</strong>: Thử nghiệm kết nối thiết bị IoT và đồng bộ dữ liệu với PostgreSQL.</li>
+    </ul>
+</section>
+
+</div>
 </body>
 </html>
+
+

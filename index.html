@@ -1,21 +1,25 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html>
 <head>
     <meta charset="UTF-8">
     <title>Đặng Việt Thắng - Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-<nav>
-    <a href="index.html">About Me</a>
-    <a href="projects.html">Projects</a>
-</nav>
+<body data-page="index">
 
 <div class="container">
+    <nav class="navbar">
+        <a href="index.html" class="nav-item" id="index">Giới thiệu</a>
+        <a href="projects.html" class="nav-item" id="projects">Dự án</a>
+        <div class="lang-switch">
+            <a class="lang-btn" href="index.html">VN</a>
+            <a class="lang-btn" href="index_en.html">EN</a>
+        </div>
+    </nav>
 
     <header>
         <h1>ĐẶNG VIỆT THẮNG</h1>
-        <h2>Lập trình viên</h2>
+        <h2 id="head">Lập trình viên</h2>
 
         <p class="contact">
             📞 0365502768<br>
@@ -25,18 +29,13 @@
     </header>
 
     <section>
-        <h3>Giới thiệu bản thân</h3>
-        <p>
-            Tôi là cử nhân tốt nghiệp Trường Đại học Khoa học Ứng dụng HAMK (Häme University of Applied Sciences),
-            chuyên ngành Ứng dụng Máy tính.  
-            Tôi đam mê công nghệ và lập trình từ nhỏ, mong muốn phát triển sự nghiệp trong lĩnh vực phát triển web và cơ sở dữ liệu.
-            Tôi là người kiên nhẫn, linh hoạt và có tư duy logic.
-        </p>
+        <h3 id="intro">Giới thiệu bản thân</h3>
+        <p id="intro_desc">Tôi là cử nhân tốt nghiệp Trường Đại học Khoa học Ứng dụng HAMK (Häme University of Applied Sciences),chuyên ngành Ứng dụng Máy tính. Tôi đam mê công nghệ và lập trình từ nhỏ, mong muốn phát triển sự nghiệp trong lĩnh vực phát triển web và cơ sở dữ liệu.Tôi là người kiên nhẫn, linh hoạt và có tư duy logic. Thành thạo trong các lĩnh vực như thiết kế/phát triển web mobile, xử lý và phân tích dữ liệu, thiết kế cơ sở dữ liệu, RPA và phát triển game.</p>
     </section>
 
     <section>
-        <h3>Kinh nghiệm & Kỹ năng</h3>
-        <ul>
+        <h3 id="exp">Kinh nghiệm & Kỹ năng</h3>
+        <ul id="exp_desc">
             <li>Thiết kế/phát triển web – mobile</li>
             <li>Xử lý và phân tích dữ liệu</li>
             <li>Thiết kế cơ sở dữ liệu, quản lý dữ liệu đám mây</li>
@@ -45,8 +44,8 @@
             <li>Phát triển game (Godot, Unity, 3D Modeling)</li>
         </ul>
 
-        <h4>Kỹ năng lập trình</h4>
-        <ul>
+        <h4 id="skill">Kỹ năng lập trình</h4>
+        <ul id="skill_desc">
             <li>Python, JavaScript, C++, Java</li>
             <li>React Native & đa nền tảng</li>
             <li>Power BI, phân tích dữ liệu</li>
@@ -54,19 +53,22 @@
     </section>
 
     <section>
-        <h3>Ngoại ngữ</h3>
-        <p>Tiếng Việt: Bản ngữ<br>Tiếng Anh: Nâng cao</p>
+        <h3 id="language">Ngoại ngữ</h3>
+        <p id="language_desc">Tiếng Việt: Bản ngữ<br>Tiếng Anh: Nâng cao</p>
     </section>
 
     <section>
-        <h3>Học vấn</h3>
-        <p>
+        <h3 id="study">Học vấn</h3>
+        <p id="study_desc">
             <strong>HAMK – Häme University of Applied Sciences</strong><br>
             Cử nhân chuyên ngành Ứng dụng Máy tính
         </p>
     </section>
 
 </div>
-
 </body>
 </html>
+
+
+
+
